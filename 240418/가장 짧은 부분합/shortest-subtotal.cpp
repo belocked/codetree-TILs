@@ -19,7 +19,7 @@ int main() {
     else{
         while(l<=r)
         {
-            if(arr[l]>arr[r])
+            if(arr[l]>=arr[r])
             {
                 total-=arr[r];
                 r--;
